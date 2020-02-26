@@ -13,6 +13,7 @@
 		041221B0240602A8009BB85A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041221AF240602A8009BB85A /* Assets.xcassets */; };
 		041221B3240602A8009BB85A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041221B1240602A8009BB85A /* LaunchScreen.storyboard */; };
 		041221B6240602A8009BB85A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 041221B5240602A8009BB85A /* main.m */; };
+		041221BE24060EDA009BB85A /* HBTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041221BD24060EDA009BB85A /* HBTestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		041221B2240602A8009BB85A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		041221B4240602A8009BB85A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		041221B5240602A8009BB85A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		041221BC24060EDA009BB85A /* HBTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBTestViewController.h; sourceTree = "<group>"; };
+		041221BD24060EDA009BB85A /* HBTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBTestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				041221A4240602A6009BB85A /* AppDelegate.m */,
 				041221A9240602A6009BB85A /* ViewController.h */,
 				041221AA240602A6009BB85A /* ViewController.m */,
+				041221BC24060EDA009BB85A /* HBTestViewController.h */,
+				041221BD24060EDA009BB85A /* HBTestViewController.m */,
 				041221AC240602A6009BB85A /* Main.storyboard */,
 				041221AF240602A8009BB85A /* Assets.xcassets */,
 				041221B1240602A8009BB85A /* LaunchScreen.storyboard */,
@@ -143,6 +148,7 @@
 			files = (
 				041221AB240602A6009BB85A /* ViewController.m in Sources */,
 				041221A5240602A6009BB85A /* AppDelegate.m in Sources */,
+				041221BE24060EDA009BB85A /* HBTestViewController.m in Sources */,
 				041221B6240602A8009BB85A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
